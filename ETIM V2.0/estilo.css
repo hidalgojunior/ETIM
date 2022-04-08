@@ -1,0 +1,98 @@
+/* Estilização de TAGs */
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: #28303A;
+    font-family:Arial;
+    color:#eee5e9;
+}
+ul{
+    margin-top:40px;
+    list-style:none;
+    margin-bottom: 40px;
+    text-align: center;
+}
+li{
+    display: inline-block;
+    border-bottom: 5px solid #d64933;
+    border-top: 5px solid #d64933;
+    padding:20px;
+    background-color: #7c7c7c;
+    margin:2px;
+}
+li:hover{
+    border-bottom: 5px solid  #7c7c7c;
+    border-top: 5px solid  #7c7c7c;
+    background-color:#d64933;
+    margin:2px;
+}
+a{
+    color:#eee5e9;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+p{
+    line-height: 30px;
+    margin-bottom:30px;
+    text-indent: 50px;
+    font-size:18px;
+    text-align: justify;
+    margin:15px;
+}
+h1{
+    font-size:40px;
+    color: #92dce5;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 20px;
+    margin-top:40px;
+    margin-bottom: 40px;
+    text-shadow: -1px -1px red;
+}
+
+/* Estilização de CLASS */
+.titulo {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    margin:40px;
+}
+
+.prof{
+    margin:20px;
+    width:25%;
+    float:left;
+    border: 20px double black;
+    padding:10px;
+    border-radius: 50px;
+    color:white;
+    font-weight: bolder;
+    box-shadow: 2px 2px 20px white;
+    background-color: #7c7c7c;
+}
+.prof > h4{
+    text-align: center;
+    text-transform: uppercase;
+    color:#28303A;
+    font-size: 20px;
+    letter-spacing: 10px;
+}
+.prof > h5 {
+    text-align: right;
+    text-transform: lowercase;
+    font-style: italic;
+}
+.prof > p{
+    font-size:14px;
+    line-height: 15px;
+}
+
+/* Estilização de IDs */
+#limpar{
+    clear:both;
+}
+#rodape{
+    font-family: 'Times New Roman';
+}
