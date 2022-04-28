@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Whisper&display=swap');
+
+
+:root{
+    --fundo : #FF0054;
+    --texto : #ffbd00;
+    --cor1 : #390099;
+    --cor2 : #9e0059;
+    --cor3 : #ff5400;
+    --font_corpo: 'Whisper', cursive;
+    --tamanho_fonte: 20px;
+}
+
+/* Estilização de TAGs */
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: var(--cor1);
+    font-family:var(--font_corpo);
+    color:#eee5e9;
+    font-size: var(--tamanho_fonte);
+}
+ul{
+    margin-top:40px;
+    list-style:none;
+    margin-bottom: 40px;
+    text-align: center;
+}
+li{
+    display: inline-block;
+    border-bottom: 5px solid #d64933;
+    border-top: 5px solid #d64933;
+    padding:20px;
+    background-color: #7c7c7c;
+    margin:2px;
+}
+li:hover{
+    border-bottom: 5px solid  #7c7c7c;
+    border-top: 5px solid  #7c7c7c;
+    background-color:#d64933;
+    margin:2px;
+}
+a{
+    color:#eee5e9;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+p{
+    line-height: 30px;
+    margin-bottom:30px;
+    text-indent: 50px;
+    font-size:18px;
+    text-align: justify;
+    margin:15px;
+}
+h1{
+    font-size:40px;
+    color: #92dce5;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 20px;
+    margin-top:40px;
+    margin-bottom: 40px;
+    text-shadow: -1px -1px red;
+}
+
+/* Estilização de CLASS */
+.titulo {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    margin:40px;
+}
+
+.prof{
+    margin:20px;
+    width:25%;
+    float:left;
+    border: 20px double black;
+    padding:10px;
+    border-radius: 50px;
+    color:white;
+    font-weight: bolder;
+    box-shadow: 2px 2px 20px white;
+    background-color: #7c7c7c;
+}
+.prof > h4{
+    text-align: center;
+    text-transform: uppercase;
+    color:#28303A;
+    font-size: 20px;
+    letter-spacing: 10px;
+}
+.prof > h5 {
+    text-align: right;
+    text-transform: lowercase;
+    font-style: italic;
+}
+.prof > p{
+    font-size:14px;
+    line-height: 15px;
+}
+
+.fale{
+    width: 80%;
+    border: 5px solid #92dce5;
+    margin:auto;
+    background-color: #d64933;
+    color:#eee5e9;
+}
+.rotulo{
+    font-size: 28px;
+    text-align: right;
+}
+.formulario{
+    padding: 20px;
+}
+.formulario > input{
+    font-size: 30px;
+    padding: 10px;
+}
+.formulario > textarea{
+    font-size: 30px;
+    padding: 10px;
+    resize: none;
+}
+.fale  td {
+    margin:20px;
+    
+}
+
+.butao{
+    border: 5px solid #eee5e9;
+    width: 100%;
+    height: 100%;
+    font-size: 28px;
+    padding: 10px;
+}
+.butao:hover{
+    background-color: var(--cor2);
+    color:var(--texto);
+}
+/* Estilização de IDs */
+#limpar{
+    clear:both;
+}
+#rodape{
+    font-family: 'Times New Roman';
+}
+
